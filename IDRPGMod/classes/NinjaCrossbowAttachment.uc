@@ -1,0 +1,57 @@
+class NinjaCrossbowAttachment extends KFMeleeAttachment;
+
+defaultproperties
+{
+     MovementAnims(0)="JogF_Cheetah"
+     MovementAnims(1)="JogB_Cheetah"
+     MovementAnims(2)="JogL_Cheetah"
+     MovementAnims(3)="JogR_Cheetah"
+     TurnLeftAnim="TurnL_Cheetah"
+     TurnRightAnim="TurnR_Cheetah"
+     CrouchAnims(0)="CHwalkF_Cheetah"
+     CrouchAnims(1)="CHwalkB_Cheetah"
+     CrouchAnims(2)="CHwalkL_Cheetah"
+     CrouchAnims(3)="CHwalkR_Cheetah"
+     WalkAnims(0)="WalkF_Cheetah"
+     WalkAnims(1)="WalkB_Cheetah"
+     WalkAnims(2)="WalkL_Cheetah"
+     WalkAnims(3)="WalkR_Cheetah"
+     CrouchTurnRightAnim="CH_TurnR_Cheetah"
+     CrouchTurnLeftAnim="CH_TurnL_Cheetah"
+     IdleCrouchAnim="CHIdle_Cheetah"
+     IdleWeaponAnim="Idle_Cheetah"
+     IdleRestAnim="Idle_Cheetah"
+     IdleChatAnim="Idle_Cheetah"
+     IdleHeavyAnim="Idle_Cheetah"
+     IdleRifleAnim="Idle_Cheetah"
+     FireAnims(0)="Fire_Cheetah"
+     FireAnims(1)="Fire_Cheetah"
+     FireAnims(2)="Fire_Cheetah"
+     FireAnims(3)="Fire_Cheetah"
+     FireAltAnims(0)="Fire_Cheetah"
+     FireAltAnims(1)="Fire_Cheetah"
+     FireAltAnims(2)="Fire_Cheetah"
+     FireAltAnims(3)="Fire_Cheetah"
+     FireCrouchAnims(0)="CHFire_Cheetah"
+     FireCrouchAnims(1)="CHFire_Cheetah"
+     FireCrouchAnims(2)="CHFire_Cheetah"
+     FireCrouchAnims(3)="CHFire_Cheetah"
+     FireCrouchAltAnims(0)="CHFire_Cheetah"
+     FireCrouchAltAnims(1)="CHFire_Cheetah"
+     FireCrouchAltAnims(2)="CHFire_Cheetah"
+     FireCrouchAltAnims(3)="CHFire_Cheetah"
+     HitAnims(0)="HitF_Cheetah"
+     HitAnims(1)="HitB_Cheetah"
+     HitAnims(2)="HitL_Cheetah"
+     HitAnims(3)="HitR_Cheetah"
+     PostFireBlendStandAnim="Blend_Cheetah"
+     PostFireBlendCrouchAnim="CHBlend_Cheetah"
+     MeshRef="DZResPack.NinjaCrossbow_3"
+     AmbientSoundRef="KF_IJC_HalloweenSnd.KF_SawbladeBow_Idle"
+     WeaponAmbientScale=2.000000
+     Skins(0)=Combiner'DZResPack.star_cmb2'
+     Skins(1)=Texture'DZResPack.Tex_0013_1'
+     Skins(2)=Combiner'DZResPack.Box_CMB'
+     SoundVolume=35
+     SoundRadius=100.000000
+}

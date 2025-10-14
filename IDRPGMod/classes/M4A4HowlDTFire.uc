@@ -1,0 +1,38 @@
+class M4A4HowlDTFire extends ID_RPG_Base_Weapon_Fire;
+
+defaultproperties
+{
+     FireAimedAnim="Fire"
+     RecoilRate=0.065000
+     maxVerticalRecoilAngle=250
+     maxHorizontalRecoilAngle=100
+     ShellEjectClass=Class'ROEffects.KFShellEjectM4Rifle'
+     ShellEjectBoneName="Shell_eject"
+     bAccuracyBonusForSemiAuto=True
+     StereoFireSound=SoundGroup'DZResPack.M4A4HowlDT_SND.Fire'
+     DamageType=Class'IDRPGMod.M4A4HowlDTDamType'
+     DamageMin=25
+     DamageMax=35
+     Momentum=8500.000000
+     bPawnRapidFireAnim=True
+     TransientSoundVolume=1.800000
+     FireLoopAnim="Fire"
+     TweenTime=0.025000
+     FireSound=SoundGroup'DZResPack.M4A4HowlDT_SND.Fire'
+     NoAmmoSound=Sound'DZResPack.M4A4HowlDT_SND.lowammo'
+     FireForce="AssaultRifleFire"
+     FireRate=0.075000
+     AmmoClass=Class'IDRPGMod.M4A4HowlDTAmmo'
+     AmmoPerFire=1
+     ShakeRotMag=(X=50.000000,Y=50.000000,Z=350.000000)
+     ShakeRotRate=(X=5000.000000,Y=5000.000000,Z=5000.000000)
+     ShakeRotTime=0.750000
+     ShakeOffsetMag=(X=6.000000,Y=3.000000,Z=7.500000)
+     ShakeOffsetRate=(X=1000.000000,Y=1000.000000,Z=1000.000000)
+     ShakeOffsetTime=1.250000
+     BotRefireRate=0.990000
+     FlashEmitterClass=Class'ROEffects.MuzzleFlash1stSTG'
+     aimerror=42.000000
+     Spread=0.008000
+     SpreadStyle=SS_Random
+}
