@@ -1,0 +1,42 @@
+class ID_Weapon_Base_Moss12S extends ID_RPG_Base_Weapon_Shotgun;
+
+defaultproperties
+{
+     FirstPersonFlashlightOffset=(X=-25.000000,Y=-18.000000,Z=8.000000)
+     MagCapacity=8
+     ReloadRate=0.666667
+     ReloadAnim="Reload"
+     ReloadAnimRate=1.200000
+     WeaponReloadAnim="Reload_Shotgun"
+     HudImage=Texture'WPCAlienWeap_T.HUD.HUD_Moss12_unselected'
+     SelectedHudImage=Texture'WPCAlienWeap_T.HUD.HUD_Moss12_selected'
+     Weight=4.000000
+     bHasAimingMode=True
+     IdleAimAnim="Idle_Iron"
+     StandardDisplayFOV=65.000000
+     bModeZeroCanDryFire=True
+     SleeveNum=0
+     TraderInfoTexture=Texture'WPCAlienWeap_T.Trader.Trader_Moss12'
+     PlayerIronSightFOV=70.000000
+     ZoomedDisplayFOV=40.000000
+     FireModeClass(0)=Class'IDRPGMod.ID_Weapon_Base_Moss12S_Fire'
+     FireModeClass(1)=Class'KFMod.NoFire'
+     PutDownAnim="PutDown"
+     SelectSound=Sound'WPCAlienWeap_S.SG_Select'
+     AIRating=0.600000
+     CurrentRating=0.600000
+     Description="'I like to keep this handy. For close encounters.' CPL Hicks"
+     DisplayFOV=65.000000
+     Priority=15
+     InventoryGroup=3
+     GroupOffset=1
+     PickupClass=Class'IDRPGMod.ID_Weapon_Base_Moss12S_Pickup'
+     PlayerViewOffset=(X=20.000000,Y=18.750000,Z=-7.500000)
+     BobDamping=7.000000
+     AttachmentClass=Class'IDRPGMod.ID_Weapon_Base_Moss12S_Attachment'
+     IconCoords=(X1=169,Y1=172,X2=245,Y2=208)
+     ItemName="Moss12S"
+     Mesh=SkeletalMesh'WPCAlienWeap_A.Moss12'
+     Skins(0)=Combiner'WPCAlienWeap_T.Weapons.Moss12_cmb'
+     TransientSoundVolume=2.000000
+}
