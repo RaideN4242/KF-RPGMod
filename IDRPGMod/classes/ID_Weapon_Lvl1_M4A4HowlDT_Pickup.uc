@@ -1,0 +1,6 @@
+class ID_Weapon_Lvl1_M4A4HowlDT_Pickup extends ID_Weapon_Lvl0_M4A4HowlDT_Pickup;
+
+defaultproperties
+{
+     InventoryType=Class'IDRPGMod.ID_Weapon_Lvl1_M4A4HowlDT'
+}
