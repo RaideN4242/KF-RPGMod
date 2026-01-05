@@ -16,7 +16,7 @@
 
 **Полный архив сервера (исходники, конфиги, база перков):**
 
-https://kf-dz.ru/downloads/KF-RPGMod.7z
+https://kf-dz.ru/downloads/
 
 
 
